@@ -1,0 +1,36 @@
+{
+  "name": "express-mongo-discord-job-alerts",
+  "version": "1.0.0",
+  "description": "A backend service built with Express and MongoDB that monitors job listings via API, stores them, and sends Discord Webhook alerts for new or removed jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemun/express-mongo-discord-job-alerts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lemun/express-mongo-discord-job-alerts/issues"
+  },
+  "homepage": "https://github.com/lemun/express-mongo-discord-job-alerts#readme",
+  "devDependencies": {
+    "@typegoose/typegoose": "^12.19.0",
+    "@types/axios": "^0.9.36",
+    "@types/express": "^5.0.3",
+    "@types/jsonfile": "^6.1.4",
+    "@types/node": "^24.5.1",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonfile": "^6.2.0",
+    "mongoose": "^8.18.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
